@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>Love Animation</title>
+		<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.1/jquery.js"></script>
+		<script src="index.js"></script>
+	</head>
+	<style type="text/css">
+		body {margin: 0;}
+		
+		#content{
+			position: absolute;
+			cursor: pointer;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: #6495ED;
+			opacity: 0.9;
+			font-style: italic;
+			white-space: nowrap;
+			-webkit-touch-callout:none;
+			-webkit-user-select:none;
+			user-select:none;
+		}
+		
+		#content p {
+			text-align: right;
+		}
+	</style>
+	
+	<body>
+			<canvas id="c" style="position: absolute;z-index: -1;text-align: center;"></canvas> 
+		
+			<div id="content">
+				<h1>“你若有情，我必有意”</h1>
+				<p>—— 蒋冠群</p>
+			</div>
+	</body>
+</html>
